@@ -53,7 +53,7 @@ app.get('/session',function(req,res){
     })
 }) 
 
-app.post('/zyclyx',function(req,res){
+app.post('/intellect',function(req,res){
     if(!req.body.session_id){
         res.status(500).send({output:{message:"Invalid Session"}})
     }    
